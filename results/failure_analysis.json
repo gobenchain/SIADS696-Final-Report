@@ -1,0 +1,38 @@
+[
+  {
+    "Complaint ID": "12230857",
+    "date": "2025-02-26",
+    "product": "Checking/savings",
+    "outcome": "Closed with explanation",
+    "score": 0.9901394486,
+    "error_type": "false positive",
+    "category": "Earlier refund confused with the final outcome",
+    "description": "The narrative describes one overdraft fee and a maintenance fee that had already been refunded, followed by a request to waive another fee.",
+    "possible_reason": "Words about refunds and fees resemble successful cases, even though an earlier refund is different from the final response to this complaint.",
+    "improvement": "An event-order representation could separate prior refunds from the unresolved request."
+  },
+  {
+    "Complaint ID": "16791143",
+    "date": "2025-10-23",
+    "product": "Money transfer",
+    "outcome": "Closed with monetary relief",
+    "score": 0.0225665305,
+    "error_type": "false negative",
+    "category": "Too little information in the narrative",
+    "description": "The cleaned text is only a short fragment naming Chime and saying it authorized something.",
+    "possible_reason": "There is almost no detail about the transaction, dispute, or requested remedy. The company prior and the few available words cannot explain this positive outcome.",
+    "improvement": "A model could flag low-information text for human review, rather than giving a confident recommendation."
+  },
+  {
+    "Complaint ID": "11405369",
+    "date": "2025-01-06",
+    "product": "Credit reporting",
+    "outcome": "Closed with monetary relief",
+    "score": 0.0016934177,
+    "error_type": "false negative",
+    "category": "Product label hides a different financial issue",
+    "description": "The record is labeled credit reporting, but the story also describes a compromised Chime account and missing funds after an alleged data breach.",
+    "possible_reason": "The credit-reporting category usually has little monetary relief. A linear model may underweight the bank-account loss described inside a much broader identity-theft narrative.",
+    "improvement": "A multi-issue text representation could distinguish credit-report correction from a request to recover missing funds."
+  }
+]

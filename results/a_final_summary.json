@@ -1,0 +1,21 @@
+{
+  "C": 0.05,
+  "threshold": 0.8237825795527695,
+  "validation_ap": 0.3665491142837257,
+  "test_ap": 0.3336189107560039,
+  "test_roc_auc": 0.9737878640340363,
+  "test_f1": 0.378797402053216,
+  "precision": 0.27122712271227123,
+  "recall": 0.6277777777777778,
+  "confusion_matrix_tn_fp_fn_tp": [
+    97699,
+    2429,
+    536,
+    904
+  ],
+  "n_features": 20803,
+  "test_matching_training_text": 5023,
+  "test_ap_without_training_text_matches": 0.33362200584845275,
+  "test_rows": 101568,
+  "test_positives": 1440
+}

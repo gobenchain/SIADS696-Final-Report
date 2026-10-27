@@ -1,0 +1,4 @@
+,test PR-AUC
+structured,0.2803711046688262
+structured + 15 themes,0.3062159199405943
+structured + 20k TF-IDF terms,0.288004889930553

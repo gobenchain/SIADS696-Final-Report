@@ -1,0 +1,23 @@
+[
+  {
+    "path": "data/complaints_sample.parquet",
+    "rows": 90312,
+    "sha256": "2f107792c8a97d2123ba20f8380701afcf53595a837fceb4fc2c790318a74d87",
+    "first_id": "6851325",
+    "last_id": "6599788"
+  },
+  {
+    "path": "data/part_a_sample.parquet",
+    "rows": 341442,
+    "sha256": "0a21b83e6e06575b6b7d52bbdd741c45852ab2be0d8cb280735b793de7e54315",
+    "first_id": "12240642",
+    "last_id": "12241029"
+  },
+  {
+    "path": "data/part_b_sample.parquet",
+    "rows": 97585,
+    "sha256": "6de2afbbe3415cfcf9a8ec62893359bb8735f065a336391fda98b9624e6ccdd1",
+    "first_id": "12240532",
+    "last_id": "12240923"
+  }
+]

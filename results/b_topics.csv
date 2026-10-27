@@ -1,0 +1,31 @@
+method,theme,n,top_terms,weighted_relief
+NMF,0,5888,"called, told, phone, said, number, asked, received, email, service, times",0.0667715508905581
+NMF,1,7157,"information, request, provide, consumer, complaint, provided, act, dispute, financial, violation",0.00768630797040689
+NMF,2,7789,"payment, late, payments, late payment, make, month, late payments, monthly, late fees, make payment",0.03415745551719718
+NMF,3,8583,"report, credit, credit report, reporting, removed, bureaus, remove, accounts, credit bureaus, information",0.0011636894026141361
+NMF,4,905,"section, section states, reporting, consumer, consumer reporting, reporting agency, states, furnish, states consumer, privacy",0.00017151941511971578
+NMF,5,7285,"debt, collection, collect, company, collection agency, agency, debt collection, validation, owe, collector",0.0030704741737791136
+NMF,6,7005,"car, vehicle, loan, finance, dealership, title, company, auto, insurance, paid",0.023857849541843924
+NMF,7,7652,"loans, loan, student, student loan, student loans, payments, school, repayment, forbearance, forgiveness",0.010836891789351568
+NMF,8,9400,"card, credit card, credit, charges, cards, charge, debit, debit card, used, use",0.1444569368663621
+NMF,9,5748,"dollaramount, balance, paid, dollaramount dollaramount, balance dollaramount, charged, fee, fees, total, charge",0.07502843539570497
+NMF,10,604,"cash app, app, cash, unfair, resolution, financial, platform leaving, fraud platform, service unfair, inadequate customer",0.0006173669060707735
+NMF,11,3308,"identity, theft, identity theft, victim, victim identity, fraudulent, accounts, police, fraud, police report",0.0021581518096109157
+NMF,12,8305,"mortgage, home, loan, escrow, modification, property, insurance, foreclosure, company, mortgage company",0.026654113889548886
+NMF,13,7767,"money, transfer, transaction, sent, refund, bank, help, send, dollaramount, wire",0.10958838499361188
+NMF,14,10189,"account, bank, checking, funds, closed, checking account, check, bank account, deposit, opened",0.11849120302286963
+LDA,0,2156,"dollaramount, balance, account, dollaramount dollaramount, balance dollaramount, offer, american, bonus, opened, express",0.09252734559548009
+LDA,1,5067,"loan, car, vehicle, rate, finance, contract, dollaramount, financial, title, credit",0.01890084995579453
+LDA,2,10004,"payment, payments, dollaramount, loan, late, pay, paid, month, account, monthly",0.06381422176036296
+LDA,3,6471,"credit, report, credit report, information, accounts, identity, theft, identity theft, remove, fraudulent",0.00039827584427863666
+LDA,4,3506,"reporting, consumer, information, credit, account, report, section, credit reporting, inaccurate, fcra",0.00017537351856133587
+LDA,5,6738,"loan, loans, student, payments, forbearance, student loan, time, plan, years, program",0.009885692256843772
+LDA,6,9004,"money, account, number, transfer, email, sent, funds, phone, transaction, app",0.051354880868046536
+LDA,7,4394,"card, credit, credit card, charge, charges, fee, fees, charged, dollaramount, cards",0.20582853631512607
+LDA,8,7415,"bank, account, check, funds, dollaramount, checking, fraud, checking account, branch, closed",0.172933621912325
+LDA,9,6536,"mortgage, loan, home, modification, property, documents, application, letter, received, foreclosure",0.025202071020364612
+LDA,10,15366,"told, called, said, asked, did, phone, time, pay, just, check",0.06537932913332374
+LDA,11,7778,"credit, account, report, company, letter, paid, credit report, received, score, sent",0.013204160822384096
+LDA,12,5466,"debt, collection, law, credit, consumer, company, provide, original, legal, creditor",0.0027399833983739476
+LDA,13,2838,"financial, complaint, consumer, matter, information, regarding, despite, cfpb, request, federal",0.00947589398881995
+LDA,14,4846,"received, refund, insurance, email, sent, dispute, dollaramount, complaint, response, provided",0.11739321955491755

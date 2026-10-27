@@ -1,0 +1,51 @@
+# Local inputs and presentation files
+*.py
+*.txt
+*.pptx
+*.ppt
+~$*
+
+# Local writing and packaging files
+/*.md
+!/README.md
+report/*
+!report/FinalReport.pdf
+report_*.ipynb
+additional_analysis.ipynb
+pyproject.toml
+results/report_figures.csv
+results/verification.json
+figures/*_report.png
+
+# Assistant and editor settings
+**/.claude/
+**/.codex/
+**/CLAUDE.md
+**/AGENTS.md
+**/CODEX.md
+**/.claude.json
+**/.claude.json.*
+**/.mcp.json
+**/claude_desktop_config.json
+.vscode/
+.idea/
+.env
+.env.*
+
+# Large public datasets and rebuildable caches
+data/*
+!data/sources.json
+!data/sample_100.csv
+!data/sample_100_embeddings.npy
+artifacts/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+*.log
+report/preview/
+
+# Operating system files
+.DS_Store
+Thumbs.db
